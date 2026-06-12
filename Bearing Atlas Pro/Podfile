@@ -6,5 +6,6 @@ target 'Bearing Atlas Pro' do
 
   # Pods for Bearing Atlas Pro
 
+  pod 'Alamofire'
 
 end
