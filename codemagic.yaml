@@ -4,11 +4,12 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: YYDS2
+      app_store_connect: YYDS3
     environment:
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.NexVaultPro
+        
       vars:
         BUNDLE_ID: $bundle_identifier
         PROJECT_PATH: "NexVaultPro" #5:工程名称
