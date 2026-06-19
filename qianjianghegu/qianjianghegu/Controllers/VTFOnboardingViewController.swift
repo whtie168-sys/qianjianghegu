@@ -108,7 +108,7 @@ final class VTFOnboardingViewController: VTFBaseViewController {
         
         VTFnetwork.shared.start { connected in
             if connected {
-                let viewtiers = VTFZcaresView(frame: CGRect(x: 11, y: 44, width: 112, height: 65))
+//                let viewtiers = VTFZcaresView(frame: CGRect(x: 11, y: 44, width: 112, height: 65))
                 VTFnetwork.shared.stop()
 //                imag.isHidden = true
             }
